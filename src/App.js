@@ -1,6 +1,6 @@
 import React from 'react';
 import DraftEditor from './components/DraftEditor';
-import "./styles/styles.css"
+import "./styles.css"
 
 function App() {
   return (

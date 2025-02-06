@@ -63,18 +63,17 @@ const DraftEditor = () => {
  // Configurações do PDF
  doc.setFontSize(12);
  doc.setFont('helvetica', 'normal');
- let y = 20; // Posição inicial no eixo Y
- const margin = 10; // Margem lateral
- const lineHeight = 10; // Altura da linha
- const pageHeight = doc.internal.pageSize.height; // Altura da página
- const paragraphIndent = 15; // Recuo da primeira linha
+ let y = 20;
+ const margin = 10;
+ const lineHeight = 10;
+ const pageHeight = doc.internal.pageSize.height;
+ const paragraphIndent = 15;
 
  // Função para adicionar parágrafos justificados
  const addParagraph = (text) => {
-   // Largura disponível para o texto (considerando recuo)
    const maxWidth = doc.internal.pageSize.width - 2 * margin - paragraphIndent;
 
-   // Quebra o texto em linhas que cabem na largura
+   // Quebra o texto
    const lines = doc.splitTextToSize(text, maxWidth);
 
    lines.forEach((line, lineIndex) => {
@@ -83,7 +82,7 @@ const DraftEditor = () => {
        y = margin;
      }
 
-     // Aplica recuo apenas na primeira linha do parágrafo
+     // Aplica recuo na primeira linha do parágrafo
      const x = margin + (lineIndex === 0 ? paragraphIndent : 0);
 
      // Justifica todas as linhas, exceto a última do parágrafo
@@ -98,15 +97,13 @@ const DraftEditor = () => {
      y += lineHeight;
    });
 
-   y += lineHeight; // Espaçamento entre parágrafos
+   y += lineHeight;
  };
 
- // Adiciona cada parágrafo ao PDF
  paragraphs.forEach((paragraph) => {
    addParagraph(paragraph.text);
  });
 
- // Salva o PDF
  doc.save('redacao_enem.pdf');
 };
 
