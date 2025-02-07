@@ -7,14 +7,14 @@ Uma aplicação React para auxiliar estudantes na criação de redações, com f
 
 ![Captura de Tela da Aplicação](public/screenshot.png) <!-- Adicione um print da aplicação aqui -->
 ## Índice
-- [Funcionalidades](https://github.com/Carrielzada/repertorio/edit/main/README.md#-funcionalidades)
-- [Como Executar o Projeto](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#como-executar-o-projeto)
-   - [Pré-requisitos](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#pr%C3%A9-requisitos)
-   - [Instalação e Execução](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#pr%C3%A9-requisitos)
-- [Dependências](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#pr%C3%A9-requisitos)
-- [Estrutura do Projeto](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#estrutura-do-projeto)
-- [Licença](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#licen%C3%A7a)
-- [Contato](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#contato)
+- [Funcionalidades](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#-funcionalidades)
+- [Como Executar o Projeto](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#-como-executar-o-projeto)
+   - [Pré-requisitos](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#-como-executar-o-projeto)
+   - [Instalação e Execução](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#passo-a-passo)
+- [Dependências](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#depend%C3%AAncias)
+- [Estrutura do Projeto](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#-estrutura-do-projeto)
+- [Licença](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#-estrutura-do-projeto)
+- [Contato](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#-contato)
 
 ## 🚀 Funcionalidades
 
