@@ -1,10 +1,22 @@
-# Editor de Redação - Repertório Enem
+# 📚 Editor de Redação - Repertório Enem
+
+[![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)](https://github.com/seu-usuario/ecogest)
+[![Licença](https://img.shields.io/badge/Licença-MIT-blue)](LICENSE)
 
 Uma aplicação React para auxiliar estudantes na criação de redações, com funcionalidades de adição de parágrafos, salvamento de rascunhos e exportação para PDF.
 
 ![Captura de Tela da Aplicação](public/screenshot.png) <!-- Adicione um print da aplicação aqui -->
+## Índice
+- [Funcionalidades](https://github.com/Carrielzada/repertorio/edit/main/README.md#-funcionalidades)
+- [Como Executar o Projeto](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#como-executar-o-projeto)
+   - [Pré-requisitos](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#pr%C3%A9-requisitos)
+   - [Instalação e Execução](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#pr%C3%A9-requisitos)
+- [Dependências](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#pr%C3%A9-requisitos)
+- [Estrutura do Projeto](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#estrutura-do-projeto)
+- [Licença](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#licen%C3%A7a)
+- [Contato](https://github.com/Carrielzada/repertorio?tab=readme-ov-file#contato)
 
-## Funcionalidades
+## 🚀 Funcionalidades
 
 - **Adicionar Parágrafos**: Digite e adicione parágrafos ao seu rascunho.
 - **Editar e Excluir**: Edite ou exclua parágrafos já adicionados.
@@ -12,7 +24,7 @@ Uma aplicação React para auxiliar estudantes na criação de redações, com f
 - **Exportar para PDF**: Gere um PDF da redação com formatação adequada (recuo de parágrafo e texto justificado).
 - **Responsivo**: Funciona bem em dispositivos móveis e desktops.
 
-## Como Executar o Projeto
+## ⚡ Como Executar o Projeto
 
 Siga os passos abaixo para rodar o projeto localmente.
 
@@ -55,7 +67,7 @@ Para instalar todas as dependências automaticamente, basta rodar:
 ```bash
 npm install
 ```
-## Estrutura do Projeto 
+## 📂 Estrutura do Projeto 
 ```
 repertorio/
 ├── public/                  # Arquivos estáticos (HTML, imagens)
@@ -70,10 +82,10 @@ repertorio/
 ├── package.json             # Dependências e scripts
 └── README.md                # Documentação do projeto
 ```
-## Licença
+## 📄 Licença
 Este projeto está licenciado sob a licença MIT. Veja o [arquivo LICENSE](https://github.com/Carrielzada/repertorio/blob/main/LICENSE) para mais detalhes.
 
-## Contato
+## 👥 Contato
 Se tiver dúvidas ou sugestões, entre em contato:
 - Nome: [Vitor Medeiros Carriel](https://www.linkedin.com/in/vitorcarriel/)
 - E-mail: [carrielcontato@gmail.com](mailto:carrielcontato@gmail.com)
