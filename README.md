@@ -1,4 +1,4 @@
-# Editor de Redação Repertório Enem
+# Editor de Redação - Repertório Enem
 
 Uma aplicação React para auxiliar estudantes na criação de redações, com funcionalidades de adição de parágrafos, salvamento de rascunhos e exportação para PDF.
 
